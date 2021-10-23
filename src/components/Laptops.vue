@@ -1,6 +1,7 @@
 <template>
     <div>
       НОУТЫ
+
     </div>
 </template>
 
