@@ -1,7 +1,7 @@
 <template>
     <div>
       НОУТЫ
-      много ноутов
+
     </div>
 </template>
 
