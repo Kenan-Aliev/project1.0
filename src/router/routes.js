@@ -2,9 +2,20 @@
 const routes = [
   {
     path: '/',
-    component: () => import('layouts/MainLayout.vue'),
+    component: () => import('../pages/Main'),
     children: [
-      { path: '', component: () => import('pages/Index.vue') }
+      {
+        path:'laptops',
+        component: () => import('../components/Laptops')
+      },
+      {
+        path:'smartphones',
+        component: () => import('../components/Smartphones')
+      },
+      {
+        path:'computers',
+        component: () => import('../components/Computer')
+      },
     ]
   },
 
@@ -14,6 +25,6 @@ const routes = [
     path: '/:catchAll(.*)*',
     component: () => import('pages/Error404.vue')
   }
-]
+];
 
 export default routes
