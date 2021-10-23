@@ -1,6 +1,7 @@
 <template>
     <div>
       КОМПЫ
+
     </div>
 </template>
 

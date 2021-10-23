@@ -1,6 +1,7 @@
 <template>
     <div>
       smartphones
+
     </div>
 
 </template>
