@@ -1,4 +1,3 @@
-
 const routes = [
   {
     path: '/',
@@ -15,12 +14,11 @@ const routes = [
       {
         path:'computers',
         component: () => import('../components/Computer')
-      },
-    ]
+      }
+   ]
   },
 
-  // Always leave this as last one,
-  // but you can also remove it
+
   {
     path: '/:catchAll(.*)*',
     component: () => import('pages/Error404.vue')
