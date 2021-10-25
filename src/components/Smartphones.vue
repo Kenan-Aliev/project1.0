@@ -1,7 +1,6 @@
 <template>
-    <div>
+    <div class="smartphone">
       smartphones
-
     </div>
 
 </template>
@@ -13,5 +12,7 @@
 </script>
 
 <style scoped>
-
+.smartphone{
+  margin-top: 60px;
+}
 </style>

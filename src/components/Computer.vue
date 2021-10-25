@@ -1,7 +1,6 @@
 <template>
-    <div>
+    <div class="computer">
       КОМПЫ
-
     </div>
 </template>
 
@@ -12,5 +11,7 @@
 </script>
 
 <style scoped>
-
+.computer{
+  margin-top: 60px;
+}
 </style>

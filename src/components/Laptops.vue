@@ -1,5 +1,5 @@
 <template>
-    <div>
+    <div class="laptop">
       НОУТЫ
     </div>
 </template>
@@ -11,5 +11,7 @@
 </script>
 
 <style scoped>
-
+.laptop{
+  margin-top: 60px;
+}
 </style>

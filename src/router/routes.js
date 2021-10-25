@@ -4,6 +4,10 @@ const routes = [
     component: () => import('../pages/Main'),
     children: [
       {
+        path: '',
+        component: () => import('../components/Main')
+      },
+      {
         path:'laptops',
         component: () => import('../components/Laptops')
       },
@@ -15,7 +19,7 @@ const routes = [
         path:'computers',
         component: () => import('../components/Computer')
       }
-   ]
+    ]
   },
 
 
