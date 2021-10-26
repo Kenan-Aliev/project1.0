@@ -17,16 +17,33 @@
           </div>
         </div>
     </div>
-
+  <div class="footer">
+    <div class="footer__title">
+      <span class="footer__happy">Happy Halloween</span>
+    </div>
+    <div class="footer__icons">
+      <a :href="vk">
+        <img src="../assets/1024px-Font_Awesome_5_brands_vk.svg.png" alt="">
+      </a>
+      <span class="footer__PS">© 2021</span>
+      <a :href="discord">
+        <img src="../assets/4865592.png" alt="">
+      </a>
+    </div>
+  </div>
 </template>
 
 <script>
   import {defineComponent} from 'vue'
 
-
     export default defineComponent({
         name: "Header",
-
+      data(){
+          return{
+            discord:'https://discord.gg/KyeG8SdgFh',
+            vk:'https://vk.com/id431002316'
+          }
+      }
     })
 </script>
 
