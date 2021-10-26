@@ -1,0 +1,39 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  background: url("../assets/cover1.png");
+}
+.q-pa-md{
+  //margin-top: -16px;
+  //height: 334px;
+  padding: 0px 0px;
+
+}
+.q-carousel .q-panel-parent .q-carousel--without-padding .q-carousel--arrows-horizontal .q-carousel--navigation-bottom{
+  height: 439px;
+}
+.my-card{
+      width: 100%;
+      max-width: 350px
+}
+
+.block{
+  &__pic{
+    height: 243px;
+
+  }
+  &__content{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+  }
+
+  &__adver{
+    margin-top: 15px;
+
+  }
+
+
+}
