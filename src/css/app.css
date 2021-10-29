@@ -1,0 +1,77 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@1,300&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.header__icon {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.header__icon img {
+  margin-left: 20px;
+  margin-top: 5px;
+  width: 50px;
+  height: 50px;
+}
+.header__icon-link {
+  font-size: 23px;
+  text-align: center;
+  color: black;
+  font-family: "Rubik Beastly";
+}
+.header__main {
+  background: -webkit-gradient(linear, left top, left bottom, from(orangered), to(gold));
+  background: linear-gradient(orangered, gold);
+  width: 100%;
+  height: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.header__main-logo img {
+  width: 50px;
+  height: 50px;
+}
+.header__main-links {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-right: 15px;
+}
+.header__main-links-item {
+  font-family: "Rubik Beastly";
+  margin-left: 15px;
+  text-decoration: none;
+  color: black;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.header__title h1 {
+  font-family: Josefin;
+  color: darkmagenta;
+  font-size: 24px;
+}
+.header__title span {
+  font-size: 16px;
+  color: gray;
+}
