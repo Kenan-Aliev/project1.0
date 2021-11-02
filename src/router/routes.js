@@ -18,6 +18,10 @@ const routes = [
       {
         path:'computers',
         component: () => import('../components/Computer')
+      },
+      {
+        path:'accessories',
+        component: () => import('../components/Accessories')
       }
     ]
   },

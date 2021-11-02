@@ -14,6 +14,8 @@
             <router-link to="/computers" class="header__main-links-item">Компьютеры</router-link>
             <router-link to="/laptops" class="header__main-links-item">Ноутбуки</router-link>
             <router-link to="/smartphones" class="header__main-links-item">Смартфоны</router-link>
+            <router-link to="/accessories" class="header__main-links-item">Аксессуары</router-link>
+
           </div>
         </div>
     </div>
@@ -22,11 +24,11 @@
       <span class="footer__happy">Happy Halloween</span>
     </div>
     <div class="footer__icons">
-      <a :href="vk">
+      <a target="_blank" :href="vk">
         <img src="../assets/1024px-Font_Awesome_5_brands_vk.svg.png" alt="">
       </a>
       <span class="footer__PS">© 2021</span>
-      <a :href="discord">
+      <a target="_blank" :href="discord">
         <img src="../assets/4865592.png" alt="">
       </a>
     </div>
