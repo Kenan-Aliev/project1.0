@@ -1,13 +1,15 @@
-*{
+* {
   margin: 0;
   padding: 0;
 }
+
 .header {
   background-image: url("../assets/bg.jpg");
   width: 100%;
   background-color: black;
   display: flex;
   flex-direction: column;
+
   &__title {
     font-size: 3rem;
     line-height: 1.17;
@@ -40,40 +42,141 @@
 
   }
 }
-.block{
-  h1{
+
+.block {
+  h1 {
     font-size: 2rem;
-    font-family:'Rubik', sans-serif ;
+    font-family: 'Rubik', sans-serif;
     color: #fff;
     margin-bottom: 10px;
     margin-left: 70px;
   }
 }
 
-  .list{
-    display: flex;
-    &__pages{
-      display: flex;
-      margin-left: 70px;
-      &__title{
-        line-height: 30px;
-        margin-right: 20px;
-        margin-top: 30px;
-        color: #8490a4;
-        width: 360px;
-        height: 180px;
-        border-radius: 10px;
-        border-width: 2px;
-        border-style: solid;
-        border-color: rgb(221, 221, 221);
-        border-image: initial;
-      }
-      &__title:hover{
-        border: 2px solid #F53838;
-        box-shadow: 0 20px 40px darkgrey;
-      }
-    }
-    &__robot{
+.list {
+  display: flex;
 
+  &__pages {
+    display: flex;
+    margin-left: 70px;
+
+    &__title {
+      line-height: 30px;
+      margin-right: 20px;
+      margin-top: 30px;
+      color: #8490a4;
+      width: 360px;
+      height: 180px;
+      border-radius: 10px;
+      border-width: 2px;
+      border-style: solid;
+      border-color: rgb(221, 221, 221);
+      border-image: initial;
+    }
+
+    &__title:hover {
+      border: 2px solid #F53838;
+      box-shadow: 0 20px 40px darkgrey;
     }
   }
+
+  &__robot {
+
+  }
+}
+
+.section_plan {
+  border: 2px solid gainsboro;
+  border-radius: 10px;
+  background-color: white;
+  font-family: 'Rubik', sans-serif;
+  transition-duration: 0.2s;
+}
+
+.section_plan:hover {
+  border: 2px solid #F53838;
+}
+
+.tariff_hat {
+  text-align: center;
+  font-size: 35px;
+  font-family: 'Rubik', sans-serif;
+}
+
+.tariff_description {
+  text-align: center;
+  color: #4F5665;
+  margin-top: 20px;
+  font-family: 'Rubik', sans-serif;
+}
+
+.table {
+  padding-top: 30px;
+}
+
+.sectiontable {
+  padding: 10px 0;
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+  color: #4F5665;
+}
+
+.section_name {
+  font-size: 18px;
+  padding-top: 30px;
+  margin-right: 195px;
+  font-family: Inter;
+}
+
+  .selection_price{
+    display: flex;
+    p {
+      margin-left: 20px;
+    }
+    q-gutter-md row justify-center{
+      margin-left: 215px;
+    }
+  }
+
+.sectionbutton {
+  padding: 13px 62px;
+  background: transparent;
+  color: #8476AA;
+  font-family: 'Rubik', sans-serif;
+  border: 2px solid #8476AA;
+  border-radius: 50px;
+  font-size: 16px;
+  transition-duration: 0.2s;
+}
+
+.sectionbutton:hover {
+  box-shadow: 0 5px 20px #8476AA;
+  color: white;
+  background: #8476AA;
+  cursor: pointer;
+
+}
+
+.section_list {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  width: 420px;
+
+  img {
+    width: 325px;
+  }
+}
+
+.sectionTitle {
+  padding-top: 130px;
+  padding-bottom: 33px;
+}
+
+.section {
+  justify-content: center;
+  display: flex;
+}
+
