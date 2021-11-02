@@ -110,9 +110,28 @@
   font-family: 'Rubik', sans-serif;
 }
 
-.table {
+.section_plan__control {
   padding-top: 30px;
+
+  &-btn {
+    padding: 13px 62px;
+    background: transparent;
+    color: #8476AA;
+    font-family: "Rubik", sans-serif;
+    border: 2px solid #8476AA;
+    border-radius: 27px;
+    font-size: 16px;
+    transition-duration: 0.2s;
+  }
+
+  &-btn:hover {
+    color: white;
+    font-weight: bold;
+    background: #702963;
+
+  }
 }
+
 
 .sectiontable {
   padding: 10px 0;
@@ -122,22 +141,32 @@
   color: #4F5665;
 }
 
-.section_name {
-  font-size: 18px;
-  padding-top: 30px;
-  margin-right: 195px;
-  font-family: Inter;
+.section_start {
+  display: flex;
+  justify-content: space-between;
 }
 
-  .selection_price{
-    display: flex;
-    p {
-      margin-left: 20px;
-    }
-    q-gutter-md row justify-center{
-      margin-left: 215px;
-    }
+.section_name {
+  display: flex;
+  flex-direction: column;
+  font-size: 18px;
+  padding-top: 30px;
+  margin-right: 140px;
+  font-family: Inter;
+
+  span {
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 1;
+    letter-spacing: .03em;
+    color: #702963;
   }
+
+}
+
+.selection_price {
+  padding-top: 30px;
+}
 
 .sectionbutton {
   padding: 13px 62px;

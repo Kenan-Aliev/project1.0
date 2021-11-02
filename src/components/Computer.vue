@@ -24,42 +24,27 @@
   </div>
 
   <div class="section">
-
     <section class="section_plan">
       <div class="section_list">
-
         <img src="../assets/edel.png" alt="" class="freetariffimg">
-          <p class="section_name">EDELWEISS CS:GO</p>
-          <div class="selection_price" >
-            <p>156 360</p>
-            <q-spinner-puff color="purple" class="q-gutter-md row justify-center" style="font-size: 5em" />
+        <div class="section_start">
+          <div class="section_name">
+            <p>EDELWEISS CS:GO</p>
+            <span><b>156 360</b></span>
           </div>
-
-        <div class="table">
-          <div class="sectiontable">
-            <!--            <img src="images/jam_check.svg" alt="">-->
-            <span>Unlimited Bandwitch</span>
-          </div>
-          <div class="sectiontable">
-            <!--            <img src="images/jam_check.svg" alt="">-->
-            <span>Encrypted Connection</span>
-          </div>
-          <div class="sectiontable">
-            <!--            <img src="images/jam_check.svg" alt="">-->
-            <span>No Traffic Logs</span>
-          </div>
-          <div class="sectiontable">
-            <!--            <img src="images/jam_check.svg" alt="">-->
-            <span>Works on All Devices</span>
+          <div class="selection_price">
+            <q-spinner-puff color="purple" class="q-gutter-md row justify-center" style="font-size: 5em"/>
           </div>
         </div>
 
-        <p style="font-size: 25px" class="sectionTitle">Free</p>
-        <div class="sectionbutton" style="font-weight: bold">Select</div>
+        <div class="section_plan__control">
+          <button class="section_plan__control-btn">Купить</button>
+        </div>
+        <span>Works on All Devices</span>
       </div>
-
+      <p style="font-size: 25px" class="sectionTitle">Free</p>
+      <div class="sectionbutton" style="font-weight: bold">Select</div>
     </section>
-
   </div>
 
 
