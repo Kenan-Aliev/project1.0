@@ -36,16 +36,31 @@
           <h5>Партнеры</h5>
         </div>
         <div class="partners__icons">
+          <a target="_blank" :href="asus">
             <img src="../assets/3c28ddf1e910fe3e061998941dc6d063.svg" alt="">
+          </a>
+
+          <a target="_blank" :href="msi">
             <img src="../assets/462ce9801310ccefb151e0706542087a.svg" alt="">
+          </a>
         </div>
         <div class="partners__icons">
+          <a target="_blank" :href="nvidia">
             <img src="../assets/dc28bcacc7a63c2801ffdcfdbf7e6921.svg" alt="">
-          <img src="../assets/logo_white.svg" alt="">
+          </a>
+
+          <a target="_blank" :href="amd">
+            <img src="../assets/logo_white.svg" alt="">
+          </a>
         </div>
         <div class="partners__icons">
-          <img src="../assets/corsair.svg" alt="">
-          <img src="../assets/nzxt.svg" alt="">
+          <a target="_blank" :href="corsair">
+            <img src="../assets/corsair.svg" alt="">
+          </a>
+
+          <a target="_blank" :href="nzxt">
+            <img src="../assets/nzxt.svg" alt="">
+          </a>
         </div>
       </div>
     </div>
@@ -60,7 +75,13 @@
     data() {
       return {
         discord: 'https://discord.gg/KyeG8SdgFh',
-        vk: 'https://vk.com/id431002316'
+        vk: 'https://vk.com/id431002316',
+        asus:'https://www.asus.com/ru/',
+        msi:'https://ru.msi.com/',
+        nvidia:'https://www.nvidia.com/ru-ru/',
+        amd:'https://www.amd.com/en/support',
+        corsair:'https://www.corsair.com/ru/ru/',
+        nzxt:'https://nzxt.com/'
       }
     }
   })

@@ -33,7 +33,7 @@
           slide: ref(1),
           autoplay: ref(true)
         }
-      }
+      },
     })
 </script>
 
