@@ -1,4 +1,5 @@
 <template>
+
   <div class="mainlist">
     <div class="list">
       <div class="list-title">
@@ -59,4 +60,24 @@
     width: 100%;
     max-width: 550px;
   }
-</style>
+</style>  <div>{{ smartphone }}</div>
+</template>
+
+<script>
+import { defineComponent } from "vue";
+export default defineComponent({
+  name: "Smartphone",
+  computed: {
+    smartphone() {
+      return this.$store.getters[
+        "smartphones/smartphonesGetter"
+      ].smartphones?.find((smartphone) => {
+        return smartphone._id === this.$route.params.id;
+      });
+    },
+  },
+});
+</script>
+
+<style></style>
+

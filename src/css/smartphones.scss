@@ -1,3 +1,4 @@
+
 $lime: #a7e200;
 $ui: system-ui, sans-serif;
 .mainlist {
@@ -85,4 +86,11 @@ $ui: system-ui, sans-serif;
       margin-top: 10px;
     }
   }
+
+.smartphones {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
 }
