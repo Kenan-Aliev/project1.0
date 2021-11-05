@@ -11,10 +11,9 @@
         <img src="../assets/138_character_pumpkin_halloween.png" alt="">
       </div>
       <div class="header__main-links">
-        <router-link to="/computers" class="header__main-links-item">Компьютеры</router-link>
-        <router-link to="/laptops" class="header__main-links-item">Ноутбуки</router-link>
-        <router-link to="/smartphones" class="header__main-links-item">Смартфоны</router-link>
-        <router-link to="/accessories" class="header__main-links-item">Аксессуары</router-link>
+        <router-link to="/add" class="header__main-links-item">
+          Добавить новый смартфон
+        </router-link>
       </div>
     </div>
   </div>
@@ -76,12 +75,12 @@
       return {
         discord: 'https://discord.gg/KyeG8SdgFh',
         vk: 'https://vk.com/id431002316',
-        asus:'https://www.asus.com/ru/',
-        msi:'https://ru.msi.com/',
-        nvidia:'https://www.nvidia.com/ru-ru/',
-        amd:'https://www.amd.com/en/support',
-        corsair:'https://www.corsair.com/ru/ru/',
-        nzxt:'https://nzxt.com/'
+        asus: 'https://www.asus.com/ru/',
+        msi: 'https://ru.msi.com/',
+        nvidia: 'https://www.nvidia.com/ru-ru/',
+        amd: 'https://www.amd.com/en/support',
+        corsair: 'https://www.corsair.com/ru/ru/',
+        nzxt: 'https://nzxt.com/'
       }
     }
   })

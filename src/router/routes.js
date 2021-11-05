@@ -3,25 +3,21 @@ const routes = [
     path: '/',
     component: () => import('../pages/Main'),
     children: [
+      // {
+      //   path: '',
+      //   component: () => import('../components/Main')
+      // },
       {
-        path: '',
-        component: () => import('../components/Main')
+        path:'',
+        component: () => import('components/SmartphonesList')
       },
       {
-        path:'laptops',
-        component: () => import('../components/Laptops')
+        path:'add',
+        component:() => import('../components/AddSmartphones')
       },
       {
-        path:'smartphones',
-        component: () => import('../components/Smartphones')
-      },
-      {
-        path:'computers',
-        component: () => import('../components/Computer')
-      },
-      {
-        path:'accessories',
-        component: () => import('../components/Accessories')
+        path:':id',
+        component: () => import('../components/Smartphone')
       }
     ]
   },
