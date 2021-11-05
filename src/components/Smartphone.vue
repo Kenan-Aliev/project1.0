@@ -1,5 +1,4 @@
 <template>
-
   <div class="mainlist">
     <div class="list">
       <div class="list-title">
@@ -11,7 +10,7 @@
               <p class="list-btn-buy-p">КУПИТЬ</p>
             </div>
             <div class="list-lox-price">
-              <p>78999 <img class="list-btn-buy-img" src="../assets/rub.svg" alt=""></p>
+              <p>${{smartphone.price}}</p>
             </div>
           </div>
           <div class="list-description-info">
@@ -60,24 +59,4 @@
     width: 100%;
     max-width: 550px;
   }
-</style>  <div>{{ smartphone }}</div>
-</template>
-
-<script>
-import { defineComponent } from "vue";
-export default defineComponent({
-  name: "Smartphone",
-  computed: {
-    smartphone() {
-      return this.$store.getters[
-        "smartphones/smartphonesGetter"
-      ].smartphones?.find((smartphone) => {
-        return smartphone._id === this.$route.params.id;
-      });
-    },
-  },
-});
-</script>
-
-<style></style>
-
+</style>  
