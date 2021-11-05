@@ -3,6 +3,9 @@ import { createStore } from "vuex";
 
 import smartphones from "./smartphones";
 
+
+
+export default store(function (/* { ssrContext } */) {
 export default store(function () {
   const Store = createStore({
     modules: {
