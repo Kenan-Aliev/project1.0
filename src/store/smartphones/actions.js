@@ -15,8 +15,8 @@ export async function addSmartphone({ commit }, data) {
 }
 
 export async function deleteSmartphone({ commit }, id) {
+  commit("filterPhones", id);
   await axios.delete(
     `https://serene-springs-35316.herokuapp.com/smartphone/delete/${id}`
   );
-  commit("filterPhones", id);
 }
