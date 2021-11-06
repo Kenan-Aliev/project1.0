@@ -36,10 +36,9 @@ $ui: system-ui, sans-serif;
 
   &-image {
     margin-right: 100px;
-    margin-top: 50px;
     img {
       width: 600px;
-      height: 400px;
+      height: auto;
     }
   }
 
@@ -89,7 +88,6 @@ $ui: system-ui, sans-serif;
 
 
 .smartphones {
-  height: 100vh;
   display: flex;
   align-items: center;
   justify-content: space-evenly;
@@ -99,4 +97,22 @@ $ui: system-ui, sans-serif;
 .container{
   width: 80%;
   margin: 0 auto;
+}
+
+.smartphonesList{
+  display: flex;
+  flex-direction: column;
+}
+
+.pagination{
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.page{
+  margin-right: 10px;
+}
+.page:last-of-type{
+  margin-right: 0;
 }

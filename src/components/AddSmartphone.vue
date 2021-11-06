@@ -103,7 +103,7 @@ export default defineComponent({
       this.$store.dispatch("smartphones/addSmartphone", smartPhoneData);
     },
   },
-  unmounted() {
+  beforeUnmount() {
     this.$store.dispatch("smartphones/getSmartphones");
   },
 });

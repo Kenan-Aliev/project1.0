@@ -14,8 +14,6 @@
         <router-link :to="smartphone._id">
           <q-btn flat color="dark" label="Подробнее" />
         </router-link>
-        <q-space />
-
         <q-btn
           color="grey"
           round
@@ -23,6 +21,11 @@
           dense
           :icon="expanded ? 'keyboard_arrow_up' : 'keyboard_arrow_down'"
           @click="expanded = !expanded"
+        />
+        <q-btn
+          @click="deleteItem(smartphone._id)"
+          color="red"
+          icon="shopping_cart"
         />
       </q-card-actions>
 
@@ -46,6 +49,11 @@ export default defineComponent({
   props: {
     smartphone: {
       type: Object,
+    },
+  },
+  methods: {
+    deleteItem(id) {
+      this.$store.dispatch("smartphones/deleteSmartphone", id);
     },
   },
   setup() {

@@ -1,6 +1,6 @@
 
 export function smartphonesGetter(state) {
-  return state.smartphones
+  return state.smartphones.smartphones
 }
 
 
